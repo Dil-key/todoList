@@ -22,6 +22,8 @@ function App() {
   }, [todos,status]);
 
   //functions
+  
+  
   const filterHandler = () => {
     switch(status){
       case "completed" :
